@@ -10,6 +10,43 @@
 ├── data/ # sales_data.txt
 └── output/ # sales_report.txt
 
+## Console Run 
+===========================================
+SALES ANALYTICS SYSTEM
+===========================================
+[1/10] Reading sales data...
+✓ Successfully read 95 raw lines
+
+[2/10] Parsing and cleaning data...
+✓ Parsed 92 transactions
+
+[3/10] Filter Options Available:
+Regions: East, North, South, West
+Amount Range: ₹500 - ₹90,000
+
+Do you want to filter data? (y/n): n
+
+[4/10] Final dataset: 92 valid transactions
+
+[5/10] Analyzing sales data...
+✓ Analysis complete
+
+[6/10] Fetching product data from API...
+✓ Fetched 100 products
+
+[8/10] Enriching sales data...
+✓ Enriched 92 transactions 
+
+[7/10] Saving enriched data...
+✓ saved to: data/enriched_sales_report.txt
+
+[9/10] Generating report...
+✓ Report saved to: output/sales_report.txt
+
+[10/10] Process Complete!
+
+===========================================
+
 ## Run Pipeline
 ```bash
 pip install requests
